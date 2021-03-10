@@ -224,10 +224,15 @@ a:focus {
     padding: 0 24px;
 }
 
+.c-article__date {
+    margin-top: 0px;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -235,7 +240,7 @@ a:focus {
 @media (min-width: 768px) {
     
     h1 {
-        font-size: 58px;
+        font-size: 50px;
         line-height: 64px;
     }
 
@@ -251,11 +256,18 @@ a:focus {
         padding: 24px 48px;
     }
 
+    
+
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
 
 @media (min-width: 992px) {
+
+    h1 {
+        font-size: 60px;
+        line-height: 64px;
+    }
 
     .c-author {
         display: block;
@@ -277,6 +289,9 @@ a:focus {
 
     .c-article__content {
         width: 75%;
+    }
+    .c-article__date {
+        margin-top: 100px;
     }
 }
 
