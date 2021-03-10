@@ -212,7 +212,7 @@ a:focus {
 
 .c-article__header,
 .c-article__body {
-    min-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -233,9 +233,7 @@ a:focus {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    html {
-
-    }
+    
     h1 {
         font-size: 58px;
         line-height: 64px;
